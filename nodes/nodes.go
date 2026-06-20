@@ -327,10 +327,14 @@ type GetSlice struct {
 	Node     Node
 	Start    Node
 	End      Node
+	Step     Node // optional; nil means default step of 1
 }
 
 func (g *GetSlice) Position() *tokens.Token { return g.Location }
 func (g *GetSlice) String() string {
+	if g.Step != nil {
+		return fmt.Sprintf("%s[%s:%s:%s]", g.Node, g.Start, g.End, g.Step)
+	}
 	return fmt.Sprintf("%s[%s:%s]", g.Node, g.Start, g.End)
 }
 
