@@ -422,10 +422,12 @@ func (w Wrapper) String() string {
 }
 
 type Macro struct {
-	Location *tokens.Token
-	Name     string
-	Kwargs   []*Pair
-	Wrapper  *Wrapper
+	Location    *tokens.Token
+	Name        string
+	Kwargs      []*Pair
+	VarArgsName string // Name of *args parameter (empty if none)
+	KwArgsName  string // Name of **kwargs parameter (empty if none)
+	Wrapper     *Wrapper
 }
 
 func (m *Macro) Position() *tokens.Token { return m.Location }
