@@ -147,18 +147,6 @@ func main() {
 
 ---
 
-## Not (yet) supported
-
-| Jinja2 feature | Status |
-|---|---|
-| Async filters / async rendering | Not applicable in Go |
-| Line statements / line comments | Not implemented |
-| Sandboxed environment | Not implemented |
-| `caller(arg1, arg2)` with positional args | Parses but args not bound |
-| Some Python string method edge cases | Most methods covered |
-
----
-
 ## Compatibility with upstream gonja
 
 This fork is **import-compatible** with upstream `nikolalohinski/gonja/v2`. If you're already using upstream, you can switch to this fork without changing any `.go` files:
