@@ -63,7 +63,7 @@ go get github.com/akileshs1708/gonja/v2@master
 Or pin to a tagged version:
 
 ```bash
-go get github.com/akileshs1708/gonja/v2@v2.1.0-jinja
+go get github.com/akileshs1708/gonja/v2@v2.1-gonja
 ```
 
 ---
