@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nikolalohinski/gonja/v2/builtins"
-	"github.com/nikolalohinski/gonja/v2/config"
-	"github.com/nikolalohinski/gonja/v2/exec"
-	"github.com/nikolalohinski/gonja/v2/loaders"
+	"github.com/akileshs1708/gonja/v2/builtins"
+	"github.com/akileshs1708/gonja/v2/config"
+	"github.com/akileshs1708/gonja/v2/exec"
+	"github.com/akileshs1708/gonja/v2/loaders"
 )
 
 func main() {

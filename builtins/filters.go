@@ -20,7 +20,7 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/nikolalohinski/gonja/v2/exec"
+	"github.com/akileshs1708/gonja/v2/exec"
 )
 
 // Filters export all builtin filters

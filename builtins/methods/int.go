@@ -1,8 +1,8 @@
 package methods
 
 import (
-	"github.com/nikolalohinski/gonja/v2/builtins/methods/pyint"
-	"github.com/nikolalohinski/gonja/v2/exec"
+	"github.com/akileshs1708/gonja/v2/builtins/methods/pyint"
+	"github.com/akileshs1708/gonja/v2/exec"
 )
 
 var intMethods = exec.NewMethodSet[int](map[string]exec.Method[int]{

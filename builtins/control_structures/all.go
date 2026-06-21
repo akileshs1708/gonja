@@ -2,8 +2,8 @@
 package controlStructures
 
 import (
-	"github.com/nikolalohinski/gonja/v2/exec"
-	"github.com/nikolalohinski/gonja/v2/parser"
+	"github.com/akileshs1708/gonja/v2/exec"
+	"github.com/akileshs1708/gonja/v2/parser"
 )
 
 var All = exec.NewControlStructureSet(map[string]parser.ControlStructureParser{

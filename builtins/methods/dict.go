@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/nikolalohinski/gonja/v2/exec"
+	"github.com/akileshs1708/gonja/v2/exec"
 )
 
 var dictMethods = exec.NewMethodSet[map[string]any](map[string]exec.Method[map[string]any]{

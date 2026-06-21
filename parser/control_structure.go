@@ -7,9 +7,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/nikolalohinski/gonja/v2/logging"
-	"github.com/nikolalohinski/gonja/v2/nodes"
-	"github.com/nikolalohinski/gonja/v2/tokens"
+	"github.com/akileshs1708/gonja/v2/logging"
+	"github.com/akileshs1708/gonja/v2/nodes"
+	"github.com/akileshs1708/gonja/v2/tokens"
 )
 
 type ControlStructureParser func(parser *Parser, args *Parser) (nodes.ControlStructure, error)

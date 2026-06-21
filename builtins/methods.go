@@ -1,8 +1,8 @@
 package builtins
 
 import (
-	methods "github.com/nikolalohinski/gonja/v2/builtins/methods"
-	"github.com/nikolalohinski/gonja/v2/exec"
+	methods "github.com/akileshs1708/gonja/v2/builtins/methods"
+	"github.com/akileshs1708/gonja/v2/exec"
 )
 
 // Methods exports all builtins methods.

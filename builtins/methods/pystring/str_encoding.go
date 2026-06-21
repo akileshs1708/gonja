@@ -3,7 +3,7 @@ package pystring
 import (
 	"fmt"
 
-	"github.com/nikolalohinski/gonja/v2/builtins/methods/pyerrors"
+	"github.com/akileshs1708/gonja/v2/builtins/methods/pyerrors"
 	"golang.org/x/text/encoding/charmap"
 )
 

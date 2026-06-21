@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"runtime"
 
-	"github.com/nikolalohinski/gonja/v2/nodes"
+	"github.com/akileshs1708/gonja/v2/nodes"
 	"github.com/pkg/errors"
 )
 
