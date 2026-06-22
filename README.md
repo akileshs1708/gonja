@@ -25,35 +25,6 @@ This fork adds the missing Jinja2 features so that real-world Python Jinja2 temp
 
 The original `gonja` covers ~85% of Jinja2's syntax. This fork closes the remaining gaps so that production Jinja2 templates render correctly in Go.
 
-### Features added on top of upstream gonja:
-
-| Feature | Jinja2 syntax | Status |
-|---|---|---|
-| `do` extension | `{% do list.append(x) %}` | ✅ Added |
-| `break` (loopcontrols) | `{% break %}` | ✅ Added |
-| `continue` (loopcontrols) | `{% continue %}` | ✅ Added |
-| Block-form `set` | `{% set x %}...{% endset %}` | ✅ Added |
-| i18n trans block | `{% trans %}...{% endtrans %}` | ✅ Added |
-| Pluralization | `{% trans count=n %}...{% pluralize %}...{% endtrans %}` | ✅ Added |
-| `gettext` family | `_("msg")`, `gettext()`, `ngettext()` | ✅ Added |
-| Slice with step | `list[1:10:2]`, `list[::-1]` | ✅ Added |
-| Negative-step slice | `"hello"[::-1]` | ✅ Added |
-| `count` filter alias | `{{ items \| count }}` | ✅ Added |
-| `loop.depth` / `loop.depth0` | Nested loop depth tracking | ✅ Added |
-| `loop.cycle(...)` | `{{ loop.cycle('odd','even') }}` | ✅ Fixed |
-| `loop.changed(value)` | Detect value changes between iterations | ✅ Fixed |
-| Recursive loops | `{% for n in tree recursive %}...{{ loop(n.children) }}...{% endfor %}` | ✅ Added |
-| Macro `*args` | `{% macro f(*args) %}{{ args }}{% endmacro %}` | ✅ Added |
-| Macro `**kwargs` | `{% macro f(**kwargs) %}{{ kwargs }}{% endmacro %}` | ✅ Added |
-| `{% call %}` blocks + `caller()` | `{% call wrap() %}body{% endcall %}` | ✅ Added |
-| Dict `.values()`, `.get()`, `.pop()`, etc. | `{{ d.values() }}`, `{{ d.get(k, default) }}` | ✅ Added |
-
-### Bug fixes vs. upstream
-
-- `testNotEqual` now uses `EqualValueTo` (handles uncomparable types safely)
-
----
-
 ## Installation
 
 ```bash
