@@ -9,7 +9,7 @@ Here's a complete `README.md` for your fork. Copy this into `D:\gonja\README.md`
 
 ---
 
-```markdown
+
 # Gonja (Jinja2-Complete Fork)
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/akileshs1708/gonja/v2.svg)](https://pkg.go.dev/github.com/akileshs1708/gonja/v2)
